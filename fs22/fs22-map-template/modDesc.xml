@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+    <author>Nico</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>FS22 Empty map</en>
+        <de>FS22 Leere map</de>
+    </title>
+    <description>
+        <en><![CDATA[FS22 Empty map]]></en>
+        <de><![CDATA[FS22 Leere map]]></de>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map/map.xml" defaultVehiclesXMLFilename="maps/map/vehicles.xml" defaultPlaceablesXMLFilename="maps/map/placeables.xml" defaultItemsXMLFilename="maps/map/items.xml">
+            <title>
+                <en>Mod Map</en>
+                <de>Mod Map</de>
+            </title>
+            <description>
+                <en>This is the sample mod map.</en>
+                <de>Dies ist die Beispiel Mod Map.</de>
+            </description>
+            <iconFilename>preview.png</iconFilename>
+        </map>
+    </maps>
+
+	
+</modDesc>
